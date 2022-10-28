@@ -1,0 +1,25 @@
+.App {
+	text-align: center;
+
+	padding: 20px;
+}
+
+h1 {
+	font-size: 90px;
+}
+
+button {
+	width: 250px;
+	height: 80px;
+	font-size: 24px;
+	background-color: #c24d2c;
+	border: 0;
+	border-radius: 15px;
+	color: #d9dad7;
+	padding: 5px;
+	margin-top: 10px;
+	&:hover {
+		cursor: pointer;
+		background-color: #ed733f;
+	}
+}
