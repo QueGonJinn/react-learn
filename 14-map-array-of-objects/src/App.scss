@@ -1,0 +1,38 @@
+.App {
+	text-align: center;
+}
+
+.persons {
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 930px;
+	text-align: center;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.person {
+	width: 280px;
+	height: 200px;
+	border: 1px solid #f96d00;
+	border-radius: 15px;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background-color: #222831;
+	& h1 {
+		font-size: 28px;
+		width: 270px;
+	}
+	& h2 {
+		font-size: 14px;
+	}
+	& img {
+		border-radius: 15px;
+	}
+}
