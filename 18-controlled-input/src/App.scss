@@ -1,0 +1,44 @@
+.App {
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 70px;
+	margin: 0 auto;
+	max-width: 450px;
+	text-align: center;
+}
+
+button {
+	width: 250px;
+	height: 80px;
+	font-size: 24px;
+	background-color: #c24d2c;
+	border: 0;
+	border-radius: 15px;
+	color: #d9dad7;
+	padding: 5px;
+	margin: 10px;
+	&:hover {
+		cursor: pointer;
+		background-color: #ed733f;
+	}
+}
+
+form {
+	margin: 0 auto;
+	font-size: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 450px;
+	justify-content: center;
+}
+
+input {
+	margin: 15px;
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	font-size: 20px;
+}
