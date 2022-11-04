@@ -1,0 +1,16 @@
+@import './normalize';
+$bg-color: #143e50;
+$text-color: #eff2ec;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	background-color: $bg-color;
+	color: $text-color;
+	transition: transform 0.3s;
+}
